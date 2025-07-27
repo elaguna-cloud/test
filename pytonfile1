@@ -1,0 +1,14 @@
+# Asignar valores a las variables
+x = 10
+y = 20
+
+# Crear una función para restar
+def restar(a, b):
+    resultado = b - a
+    return resultado
+
+# Llamar a la función y guardar el resultado
+result = restar(x, y)
+
+# Mostrar el resultado
+print("El resultado de restar", x, "de", y, "es:", result)
